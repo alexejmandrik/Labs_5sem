@@ -1,0 +1,91 @@
+{
+  "query": "{ getFaculties { FACULTY FACULTY_NAME } }"
+}
+
+
+{
+  "query": "{ getFaculties(faculty:\"ТОВ\") { FACULTY FACULTY_NAME } }"
+}
+
+
+{
+  "query": "{ getTeachers { TEACHER TEACHER_NAME PULPIT} }"
+}
+
+
+{
+  "query": "{ getTeachers(teacher:\"СМЛВ\") { TEACHER TEACHER_NAME PULPIT} }"
+}
+
+
+{  
+  "query": "{ getPulpits { PULPIT PULPIT_NAME FACULTY} }"
+}
+
+
+{  
+  "query": "{ getPulpits(pulpit:\"ИСиТ\") { PULPIT PULPIT_NAME FACULTY} }"
+}
+
+
+{
+  "query": "{ getSubjects(subject:\"БД\") { SUBJECT SUBJECT_NAME PULPIT} }"
+}
+
+
+{
+  "query": "mutation { setFaculty(faculty:\"IT_set\", faculty_name:\"Информационные технологии\") { FACULTY FACULTY_NAME } }"
+}
+
+
+{
+  "query": "mutation { setTeacher(teacher:\"ИИИ\", teacher_name:\"Иванов И.И.\", pulpit:\"ИСиТ\") { TEACHER TEACHER_NAME PULPIT } }"
+}
+
+
+{
+  "query": "mutation { setPulpit(pulpit:\"Тест_ИСИТ\", pulpit_name:\"Информационные системы\", faculty:\"IT_set\") { PULPIT PULPIT_NAME FACULTY } }"
+}
+
+
+{
+  "query": "mutation { setSubject(subject:\"DB\", subject_name:\"Базы данных\", pulpit:\"ИСиТ\") { SUBJECT SUBJECT_NAME PULPIT } }"
+}
+
+
+{
+  "query": "mutation { delFaculty(faculty:\"IT_set\") }"
+}
+
+
+
+{
+  "query": "mutation { delTeacher(teacher:\"ИИИ\") }"
+}
+
+
+{
+  "query": "mutation { delPulpit(pulpit:\"Тест_ИСИТ\") }"
+}
+
+
+{
+  "query": "mutation { delSubject(subject:\"DB\") }"
+}
+
+
+{
+  "query": "{ getTeachersByFaculty(faculty:\"ИДиП\") { TEACHER TEACHER_NAME PULPIT } }"
+}
+
+
+{
+  "query": "{ getSubjectsByFaculties(faculty:\"ИДиП\") { SUBJECT SUBJECT_NAME PULPIT } }"
+}
+
+
+
+
+
+
+

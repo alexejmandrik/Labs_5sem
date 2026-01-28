@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <h1>Данные с сервера (jQuery Ajax):</h1>
+  <div id="result"></div>
+
+  <script>
+    $(document).ready(function() {
+      $.ajax({
+        url: '/api/name',
+        method: 'GET',
+        success: function(data) {
+          $('#result').text(data);
+        },
+        error: function(xhr, status, error) {
+          $('#result').text('Ошибка: ' + status + ' ' + error);
+        }
+      });
+    });
+  </script>
+</body>
+</html>

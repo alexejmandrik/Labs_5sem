@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<body>
+  <h1>Данные с сервера:</h1>
+  <div id="result"></div>
+
+  <script>
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', '/api/name', true);
+
+    xhr.onload = function() {
+      if (xhr.status === 200) {
+        document.getElementById('result').textContent = xhr.responseText;
+      } else {
+        document.getElementById('result').textContent = 'Ошибка: ' + xhr.status;
+      }
+    };
+
+    xhr.onerror = function() {
+      document.getElementById('result').textContent = 'Ошибка запроса';
+    };
+
+    xhr.send();
+  </script>
+</body>
+</html>

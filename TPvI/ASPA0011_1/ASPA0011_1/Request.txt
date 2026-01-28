@@ -1,0 +1,80 @@
+// POST /api/channels
+{
+   "command": "new",
+   "name": "Первый канал",
+   "state": "CLOSED",
+   "description": "Описание 1 канала"
+}
+
+{
+   "command": "new",
+   "name": "Второй канал",
+   "state": "ACTIVE",
+   "description": "Описание 2 канала"
+}
+
+{
+   "command": "new",
+   "name": "Третий канал",
+   "state": "ACTIVE",
+   "description": "Описание 3 канала"
+}
+
+
+
+
+
+
+// PUT /api/channels
+// Конкретный
+{
+	"command": "close",
+	    "id": "08d82267-79dd-4a97-9290-a95614d20e1b",
+	"reason": "Причина тест приложения :)"
+}
+
+// Конкретный возобновить
+{
+	"command": "open",
+	    "id": "08d82267-79dd-4a97-9290-a95614d20e1b",
+	"state": "ACTIVE)"
+}
+
+// ALL
+{
+	"command": "close",
+	"reason": "Причина тест приложения :)"
+}
+
+// Все возобновить
+{
+	"command": "open"
+}
+
+
+
+
+
+
+// DELETE /api/channels
+// ALL
+
+{
+	"command": "del"
+}
+
+// DEL all closed
+{
+	"command": "del",
+	"state": "CLOSED"
+}
+
+
+// POST /api/queue
+p
+
+{
+	"command": "enqueue",
+    "id": "b4e07445-7c04-4159-93e6-77fa0bf639ef",
+	"data": "JSON-строка"
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>10-01</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <h1>10-01</h1>
+    <button onclick="startWS()">startWS</button>
+    <pre id="log"></pre>
+
+<script>
+    let ws;
+    let counter = 1;
+    let sendInterval;
+
+    function log(msg) {
+        document.getElementById('log').textContent += msg + "\n";
+    }
+
+    function startWS() {
+        ws = new WebSocket("ws://localhost:4000");
+
+        ws.onopen = () => {
+            log("socket.onopen");
+
+            sendInterval = setInterval(() => {
+                let message = `10-01-client: ${counter}`;
+                ws.send(message);
+                log("Sent → " + message);
+                counter++;
+            }, 3000);
+
+            setTimeout(() => {
+                clearInterval(sendInterval);
+                ws.close();
+                log("WS подлкючение разорвано");
+            }, 25000);
+        };
+        ws.onmessage = event => log("Received - " + event.data);
+    }
+</script>
+</body>
+</html>

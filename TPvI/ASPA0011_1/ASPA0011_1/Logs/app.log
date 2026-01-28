@@ -1,0 +1,502 @@
+2025-11-12 23:31:23 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-12 23:31:23 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-12 23:31:23 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-12 23:31:23 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-12 23:32:45 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-12 23:32:45 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-12 23:40:23 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (30d7c179-82f4-45aa-8959-181709dbcce2)
+2025-11-12 23:40:23 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-12 23:40:47 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (fe497d31-2d41-49e5-9715-75b8b629a707)
+2025-11-12 23:40:47 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-12 23:48:14 [Warning] ASPA0011_1.Services.ChannelService: Канал fe497d31-2d41-49e5-9715-75b8b629a707 закрыт. Причина: Причина тест приложения :)
+2025-11-12 23:48:14 [Information] ASPA0011_1.Controllers.ChannelsController: Канал fe497d31-2d41-49e5-9715-75b8b629a707 остановлен. Причина: Причина тест приложения :)
+2025-11-12 23:50:09 [Warning] ASPA0011_1.Services.ChannelService: Канал fe497d31-2d41-49e5-9715-75b8b629a707 закрыт. Причина: Причина тест приложения :)
+2025-11-12 23:50:09 [Information] ASPA0011_1.Controllers.ChannelsController: Канал fe497d31-2d41-49e5-9715-75b8b629a707 остановлен. Причина: Причина тест приложения :)
+2025-11-12 23:51:32 [Information] ASPA0011_1.Services.ChannelService: Канал fe497d31-2d41-49e5-9715-75b8b629a707 возобновлён
+2025-11-12 23:51:32 [Information] ASPA0011_1.Controllers.ChannelsController: Канал fe497d31-2d41-49e5-9715-75b8b629a707 возобновлён
+2025-11-12 23:51:38 [Error] ASPA0011_1.Services.ChannelService: Канал fe497d31-2d41-49e5-9716-75b8b629a707 не найден для открытия
+2025-11-12 23:51:38 [Error] ASPA0011_1.Controllers.ChannelsController: Канал fe497d31-2d41-49e5-9716-75b8b629a707 не найден для возобновления
+2025-11-12 23:51:56 [Information] ASPA0011_1.Services.ChannelService: Канал fe497d31-2d41-49e5-9715-75b8b629a707 возобновлён
+2025-11-12 23:51:56 [Information] ASPA0011_1.Controllers.ChannelsController: Канал fe497d31-2d41-49e5-9715-75b8b629a707 возобновлён
+2025-11-12 23:52:53 [Information] ASPA0011_1.Services.ChannelService: Все каналы остановлены. Причина: Причина тест приложения :)
+2025-11-12 23:52:53 [Information] ASPA0011_1.Controllers.ChannelsController: Все каналы остановлены. Причина: Причина тест приложения :)
+2025-11-12 23:53:07 [Information] ASPA0011_1.Services.ChannelService: Все каналы возобновлены
+2025-11-12 23:53:07 [Information] ASPA0011_1.Controllers.ChannelsController: Все каналы возобновлены
+2025-11-12 23:55:41 [Warning] ASPA0011_1.Services.ChannelService: Канал fe497d31-2d41-49e5-9715-75b8b629a707 закрыт. Причина: Причина тест приложения :)
+2025-11-12 23:55:41 [Information] ASPA0011_1.Controllers.ChannelsController: Канал fe497d31-2d41-49e5-9715-75b8b629a707 остановлен. Причина: Причина тест приложения :)
+2025-11-12 23:56:06 [Information] ASPA0011_1.Services.ChannelService: Удалены каналы со состоянием CLOSED (1)
+2025-11-12 23:56:06 [Information] ASPA0011_1.Controllers.ChannelsController: Удалены каналы со состоянием CLOSED (1)
+2025-11-12 23:56:48 [Information] ASPA0011_1.Services.ChannelService: Удалены все каналы (1)
+2025-11-12 23:56:48 [Information] ASPA0011_1.Controllers.ChannelsController: Удалены все каналы (1)
+2025-11-12 23:57:50 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (6282d00d-8625-4bb2-962e-37ea3e38984a)
+2025-11-12 23:57:50 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-12 23:57:58 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (087d95a1-e68b-42f8-b690-2bfc7088f344)
+2025-11-12 23:57:58 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-12 23:58:04 [Information] ASPA0011_1.Services.ChannelService: Создан канал Третий канал (86f36a9f-8379-411c-aa47-45ebaf452625)
+2025-11-12 23:58:04 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Третий канал в состоянии ACTIVE
+2025-11-13 00:08:58 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка
+2025-11-13 00:08:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка
+2025-11-13 00:08:58 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка
+2025-11-13 00:08:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка
+2025-11-13 00:09:13 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:13 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:15 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка12
+2025-11-13 00:09:15 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка12
+2025-11-13 00:09:17 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка123
+2025-11-13 00:09:17 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка123
+2025-11-13 00:09:37 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:37 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:42 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:42 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:42 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:42 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:42 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:42 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:43 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:43 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:54 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:54 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка1
+2025-11-13 00:09:58 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка12
+2025-11-13 00:09:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка12
+2025-11-13 00:09:58 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка123
+2025-11-13 00:09:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 86f36a9f-8379-411c-aa47-45ebaf452625: JSON-строка123
+2025-11-13 08:13:28 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 08:13:28 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 08:13:28 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 08:13:28 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 08:13:28 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 08:14:36 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 08:14:36 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (b41b2f01-aa09-43d5-b1d9-38d5f09f4992)
+2025-11-13 08:14:36 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-13 08:14:48 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (a00a421e-bf74-4cb8-8e14-684d377a6ad8)
+2025-11-13 08:14:48 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 08:14:54 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-13 08:15:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 08:15:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 08:15:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 08:15:00 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 08:37:28 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 08:37:28 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 08:37:28 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 08:37:28 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 08:37:45 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 08:37:45 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 08:37:45 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (c16c48eb-f472-4e7b-b6d4-06a478233eeb)
+2025-11-13 08:37:45 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-13 08:37:55 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (d943cdad-300e-4333-8083-b2335e728f1d)
+2025-11-13 08:37:55 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии ACTIVE
+2025-11-13 08:38:25 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал d943cdad-300e-4333-8083-b2335e728f1d: JSON-строка
+2025-11-13 08:38:25 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал d943cdad-300e-4333-8083-b2335e728f1d: JSON-строка
+2025-11-13 08:41:07 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-13 08:41:11 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 08:41:11 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 08:41:11 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 08:41:11 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 08:41:24 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 08:41:24 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 08:41:24 [Information] ASPA0011_1.Services.ChannelService: Создан канал Channel (090a18aa-a147-472e-be04-aa2d79fb94ef)
+2025-11-13 08:41:24 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Channel в состоянии ACTIVE
+2025-11-13 08:42:18 [Error] ASPA0011_1.Services.ChannelService: Канал d943cdad-300e-4333-8083-b2335e728f1d не найден для enqueue
+2025-11-13 08:42:18 [Error] ASPA0011_1.Controllers.ChannelsController: Канал d943cdad-300e-4333-8083-b2335e728f1d не найден для команды enqueue
+2025-11-13 08:43:08 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-13 08:43:12 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 08:43:13 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 08:43:13 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 08:43:13 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 08:43:29 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 08:43:29 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 08:43:29 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (27d4986a-b5b1-464c-a30e-925b3bec2c25)
+2025-11-13 08:43:29 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 08:44:04 [Warning] ASPA0011_1.Services.ChannelService: Истекло ожидание WaitEnqueue для канала 27d4986a-b5b1-464c-a30e-925b3bec2c25
+2025-11-13 08:44:04 [Warning] ASPA0011_1.Controllers.ChannelsController: Истекло ожидание WaitEnqueue для канала 27d4986a-b5b1-464c-a30e-925b3bec2c25
+2025-11-13 08:44:09 [Warning] ASPA0011_1.Services.ChannelService: Истекло ожидание WaitEnqueue для канала 27d4986a-b5b1-464c-a30e-925b3bec2c25
+2025-11-13 08:44:09 [Warning] ASPA0011_1.Controllers.ChannelsController: Истекло ожидание WaitEnqueue для канала 27d4986a-b5b1-464c-a30e-925b3bec2c25
+2025-11-13 08:53:01 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-13 08:53:13 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 08:53:13 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 08:53:13 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 08:53:13 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 08:53:13 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 09:02:05 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 09:02:05 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (e54840d7-21b5-4ed7-81fb-130345177722)
+2025-11-13 09:02:05 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-13 09:02:24 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (766cddb6-4a98-40e4-9107-59b4385342fa)
+2025-11-13 09:02:24 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 09:02:42 [Information] ASPA0011_1.Services.ChannelService: Создан канал Третий канал (34d446f5-7e1c-4439-a105-f6ac0d39e274)
+2025-11-13 09:02:42 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Третий канал в состоянии ACTIVE
+2025-11-13 09:03:40 [Warning] ASPA0011_1.Services.ChannelService: Канал 766cddb6-4a98-40e4-9107-59b4385342fa закрыт. Причина: Причина тест приложения :)
+2025-11-13 09:03:40 [Information] ASPA0011_1.Controllers.ChannelsController: Канал 766cddb6-4a98-40e4-9107-59b4385342fa остановлен. Причина: Причина тест приложения :)
+2025-11-13 09:03:56 [Information] ASPA0011_1.Services.ChannelService: Канал 766cddb6-4a98-40e4-9107-59b4385342fa возобновлён
+2025-11-13 09:03:56 [Information] ASPA0011_1.Controllers.ChannelsController: Канал 766cddb6-4a98-40e4-9107-59b4385342fa возобновлён
+2025-11-13 09:04:08 [Information] ASPA0011_1.Services.ChannelService: Все каналы остановлены. Причина: Причина тест приложения :)
+2025-11-13 09:04:08 [Information] ASPA0011_1.Controllers.ChannelsController: Все каналы остановлены. Причина: Причина тест приложения :)
+2025-11-13 09:04:17 [Information] ASPA0011_1.Services.ChannelService: Все каналы возобновлены
+2025-11-13 09:04:17 [Information] ASPA0011_1.Controllers.ChannelsController: Все каналы возобновлены
+2025-11-13 09:04:28 [Warning] ASPA0011_1.Services.ChannelService: Канал 766cddb6-4a98-40e4-9107-59b4385342fa закрыт. Причина: Причина тест приложения :)
+2025-11-13 09:04:28 [Information] ASPA0011_1.Controllers.ChannelsController: Канал 766cddb6-4a98-40e4-9107-59b4385342fa остановлен. Причина: Причина тест приложения :)
+2025-11-13 09:05:25 [Information] ASPA0011_1.Services.ChannelService: Удалены каналы со состоянием CLOSED (1)
+2025-11-13 09:05:25 [Information] ASPA0011_1.Controllers.ChannelsController: Удалены каналы со состоянием CLOSED (1)
+2025-11-13 09:05:41 [Information] ASPA0011_1.Services.ChannelService: Удалены все каналы (2)
+2025-11-13 09:05:41 [Information] ASPA0011_1.Controllers.ChannelsController: Удалены все каналы (2)
+2025-11-13 09:06:03 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (274387ef-45ec-4139-984d-94345ca633f6)
+2025-11-13 09:06:03 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-13 09:06:11 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (2f672001-bee9-494c-a398-4649f7d93c94)
+2025-11-13 09:06:11 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 09:07:04 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:04 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:10 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:10 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:39 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:39 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:42 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:42 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:45 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:45 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:55 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:55 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:59 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:07:59 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 274387ef-45ec-4139-984d-94345ca633f6: JSON-строка
+2025-11-13 09:11:12 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-13 09:11:21 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 09:11:21 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 09:11:21 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 09:11:21 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 09:11:41 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 09:11:41 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 09:11:41 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (43a9c355-6839-4a84-b3de-2af1ba9b055e)
+2025-11-13 09:11:41 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-13 09:11:48 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (9759a9f6-1c8a-4be2-968e-818a3d994e57)
+2025-11-13 09:11:48 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 09:12:24 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:24 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:30 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка1
+2025-11-13 09:12:30 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка1
+2025-11-13 09:12:34 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка12
+2025-11-13 09:12:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка12
+2025-11-13 09:12:48 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:48 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:52 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:52 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:53 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:53 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:53 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:53 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:53 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:53 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:54 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:55 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:55 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:55 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:55 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:57 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:12:57 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:13:05 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:13:05 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка
+2025-11-13 09:13:07 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка1
+2025-11-13 09:13:07 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка1
+2025-11-13 09:13:08 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка12
+2025-11-13 09:13:08 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 9759a9f6-1c8a-4be2-968e-818a3d994e57: JSON-строка12
+2025-11-13 09:14:48 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-13 09:14:55 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 09:14:55 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 09:14:55 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 09:14:55 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 09:15:10 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 09:15:10 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 09:15:10 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (7578cec0-cf2d-4af0-8125-d13ef217d870)
+2025-11-13 09:15:10 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 09:15:38 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:15:38 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:15 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:15 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:16 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:16 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:25 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:25 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:33 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:34 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870: JSON-строка
+2025-11-13 09:16:36 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала 7578cec0-cf2d-4af0-8125-d13ef217d870
+2025-11-13 09:16:36 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала 7578cec0-cf2d-4af0-8125-d13ef217d870 пуста (dequeue)
+2025-11-13 09:19:45 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 09:19:45 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 09:19:45 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 09:19:45 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 09:19:56 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 09:19:56 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 09:19:56 [Information] ASPA0011_1.Services.ChannelService: Создан канал Channel (38d00cf9-7b14-4a11-88e7-97139aa7fae7)
+2025-11-13 09:19:56 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Channel в состоянии ACTIVE
+2025-11-13 09:20:08 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-13 09:20:08 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-13 09:20:08 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-13 09:20:08 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-13 09:20:15 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-13 09:20:15 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-13 09:20:15 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (0bce4e1b-4557-4724-91f9-e4404d526463)
+2025-11-13 09:20:15 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-13 09:20:41 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:41 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:45 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:45 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:55 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:55 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:57 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:57 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:20:58 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:21:08 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:21:08 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:21:10 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:21:10 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 0bce4e1b-4557-4724-91f9-e4404d526463: JSON-строка
+2025-11-13 09:21:13 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала 0bce4e1b-4557-4724-91f9-e4404d526463
+2025-11-13 09:21:13 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала 0bce4e1b-4557-4724-91f9-e4404d526463 пуста (dequeue)
+2025-11-13 09:21:37 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (8e19ce94-ad75-4c7f-b335-1fa3b223baec)
+2025-11-13 09:21:37 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-13 09:22:05 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 8e19ce94-ad75-4c7f-b335-1fa3b223baec: JSON-строка
+2025-11-13 09:22:05 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 8e19ce94-ad75-4c7f-b335-1fa3b223baec: JSON-строка
+2025-11-26 19:56:31 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-26 19:56:31 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-26 19:56:31 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-26 19:56:31 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-26 19:56:35 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-26 19:57:13 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-26 19:57:13 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (56b994c2-3f48-45b6-891a-72b84b9ef596)
+2025-11-26 19:57:13 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-26 19:57:24 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (357f8d55-4018-48fa-8499-097cbd50a6b7)
+2025-11-26 19:57:24 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-26 19:57:32 [Information] ASPA0011_1.Services.ChannelService: Создан канал Третий канал (7bfc18b7-43fe-48c5-aab2-ae4bb14d3934)
+2025-11-26 19:57:32 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Третий канал в состоянии ACTIVE
+2025-11-26 19:58:40 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 56b994c2-3f48-45b6-891a-72b84b9ef596: JSON-строка
+2025-11-26 19:58:40 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 56b994c2-3f48-45b6-891a-72b84b9ef596: JSON-строка
+2025-11-26 20:01:05 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-26 20:01:13 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-26 20:01:13 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-26 20:01:13 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-26 20:01:13 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-26 20:01:16 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-26 20:01:39 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-26 20:01:39 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (d6cb943d-6b24-4e79-8213-4685aaad45c6)
+2025-11-26 20:01:39 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-26 20:01:45 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (08d82267-79dd-4a97-9290-a95614d20e1b)
+2025-11-26 20:01:45 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-26 20:02:26 [Warning] ASPA0011_1.Services.ChannelService: Попытка записи в закрытый канал d6cb943d-6b24-4e79-8213-4685aaad45c6
+2025-11-26 20:02:26 [Error] ASPA0011_1.Controllers.ChannelsController: Ошибка при обработке команды enqueue для канала d6cb943d-6b24-4e79-8213-4685aaad45c6
+Exception: System.InvalidOperationException: Канал закрыт и не принимает сообщения.
+   at ASPA0011_1.Services.ChannelService.EnqueueAsync(Guid id, String message, Int32 waitSeconds) in D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1\Services\ChannelService.cs:line 119
+   at ASPA0011_1.Controllers.ChannelsController.ProcessQueue(JsonElement body) in D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1\Controllers\ChannelsController.cs:line 187
+2025-11-26 20:03:13 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала d6cb943d-6b24-4e79-8213-4685aaad45c6
+2025-11-26 20:03:13 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала d6cb943d-6b24-4e79-8213-4685aaad45c6 пуста (dequeue)
+2025-11-26 20:03:42 [Warning] ASPA0011_1.Services.ChannelService: Очередь канала d6cb943d-6b24-4e79-8213-4685aaad45c6 пуста при Peek
+2025-11-26 20:03:42 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала d6cb943d-6b24-4e79-8213-4685aaad45c6 пуста (peek)
+2025-11-26 20:03:52 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала d6cb943d-6b24-4e79-8213-4685aaad45c6
+2025-11-26 20:03:52 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала d6cb943d-6b24-4e79-8213-4685aaad45c6 пуста (dequeue)
+2025-11-26 20:04:24 [Warning] ASPA0011_1.Services.ChannelService: Очередь канала 08d82267-79dd-4a97-9290-a95614d20e1b пуста при Peek
+2025-11-26 20:04:24 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала 08d82267-79dd-4a97-9290-a95614d20e1b пуста (peek)
+2025-11-26 20:04:33 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:04:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:04:36 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:04:36 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:04:37 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:04:37 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:01 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:01 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:05 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:05 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:05 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:05 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:06 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:12 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:12 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:13 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:13 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:15 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:15 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:17 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b
+2025-11-26 20:05:17 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала 08d82267-79dd-4a97-9290-a95614d20e1b пуста (dequeue)
+2025-11-26 20:05:38 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:38 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:40 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:40 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:40 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:40 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:41 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:41 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:41 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:05:41 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:29 [Warning] ASPA0011_1.Services.ChannelService: Канал 08d82267-79dd-4a97-9290-a95614d20e1b закрыт. Причина: Причина тест приложения :)
+2025-11-26 20:06:29 [Information] ASPA0011_1.Controllers.ChannelsController: Канал 08d82267-79dd-4a97-9290-a95614d20e1b остановлен. Причина: Причина тест приложения :)
+2025-11-26 20:06:32 [Warning] ASPA0011_1.Services.ChannelService: Канал 08d82267-79dd-4a97-9290-a95614d20e1b закрыт. Причина: Причина тест приложения :)
+2025-11-26 20:06:32 [Information] ASPA0011_1.Controllers.ChannelsController: Канал 08d82267-79dd-4a97-9290-a95614d20e1b остановлен. Причина: Причина тест приложения :)
+2025-11-26 20:06:47 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:47 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:49 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:49 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:50 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:50 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:50 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:50 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:51 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:51 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b: JSON-строка
+2025-11-26 20:06:53 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b
+2025-11-26 20:06:53 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала 08d82267-79dd-4a97-9290-a95614d20e1b пуста (dequeue)
+2025-11-26 20:06:58 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала 08d82267-79dd-4a97-9290-a95614d20e1b
+2025-11-26 20:06:58 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала 08d82267-79dd-4a97-9290-a95614d20e1b пуста (dequeue)
+2025-11-27 08:05:12 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-27 08:05:12 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-27 08:05:12 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-27 08:05:12 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-27 08:05:17 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-27 08:07:10 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-27 08:07:10 [Information] ASPA0011_1.Services.ChannelService: Создан канал Первый канал (4ddbe1e0-6c86-406d-a9c3-f5a98f95e6b6)
+2025-11-27 08:07:10 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Первый канал в состоянии CLOSED
+2025-11-27 08:07:17 [Information] ASPA0011_1.Services.ChannelService: Создан канал Второй канал (b4e07445-7c04-4159-93e6-77fa0bf639ef)
+2025-11-27 08:07:17 [Information] ASPA0011_1.Controllers.ChannelsController: Создан канал Второй канал в состоянии ACTIVE
+2025-11-27 08:07:54 [Warning] ASPA0011_1.Services.ChannelService: Попытка записи в закрытый канал 4ddbe1e0-6c86-406d-a9c3-f5a98f95e6b6
+2025-11-27 08:07:54 [Error] ASPA0011_1.Controllers.ChannelsController: Ошибка при обработке команды enqueue для канала 4ddbe1e0-6c86-406d-a9c3-f5a98f95e6b6
+Exception: System.InvalidOperationException: Канал закрыт и не принимает сообщения.
+   at ASPA0011_1.Services.ChannelService.EnqueueAsync(Guid id, String message, Int32 waitSeconds) in D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1\Services\ChannelService.cs:line 119
+   at ASPA0011_1.Controllers.ChannelsController.ProcessQueue(JsonElement body) in D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1\Controllers\ChannelsController.cs:line 187
+2025-11-27 08:08:18 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:18 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:21 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:21 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:21 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:21 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:21 [Debug] ASPA0011_1.Services.ChannelService: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:21 [Debug] ASPA0011_1.Controllers.ChannelsController: Enqueue в канал b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:32 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:33 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:34 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:35 [Debug] ASPA0011_1.Services.ChannelService: Peek в канале b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:35 [Debug] ASPA0011_1.Controllers.ChannelsController: Peek из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:44 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:44 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:45 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:45 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:45 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:45 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:46 [Debug] ASPA0011_1.Services.ChannelService: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:46 [Debug] ASPA0011_1.Controllers.ChannelsController: Dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef: JSON-строка
+2025-11-27 08:08:48 [Warning] ASPA0011_1.Services.ChannelService: Таймаут ожидания при dequeue из канала b4e07445-7c04-4159-93e6-77fa0bf639ef
+2025-11-27 08:08:48 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала b4e07445-7c04-4159-93e6-77fa0bf639ef пуста (dequeue)
+2025-11-27 08:24:53 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-27 08:28:07 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-27 08:28:07 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-27 08:28:07 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-27 08:28:07 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-27 08:29:24 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-27 08:29:24 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-27 08:29:25 [Error] ASPA0011_1.Services.ChannelService: Канал b4e07445-7c04-4159-93e6-77fa0bf639ef не найден для enqueue
+2025-11-27 08:29:25 [Error] ASPA0011_1.Controllers.ChannelsController: Канал b4e07445-7c04-4159-93e6-77fa0bf639ef не найден для команды enqueue
+2025-11-27 08:29:39 [Error] ASPA0011_1.Services.ChannelService: Канал b4e07445-7c04-4159-93e6-77fa0bf639ef не найден для dequeue
+2025-11-27 08:29:39 [Warning] ASPA0011_1.Controllers.ChannelsController: Очередь канала b4e07445-7c04-4159-93e6-77fa0bf639ef пуста (dequeue)
+2025-11-27 08:29:50 [Trace] ASPA0011_1.Controllers.ChannelsController: Вызван метод GetAll()
+2025-11-27 08:29:50 [Trace] ASPA0011_1.Controllers.ChannelsController: GetAll() возвращает 0 каналов
+2025-11-27 08:29:53 [Trace] ASPA0011_1.Controllers.ChannelsController: Вызван метод GetAll()
+2025-11-27 08:29:53 [Trace] ASPA0011_1.Controllers.ChannelsController: GetAll() возвращает 0 каналов
+2025-11-27 08:29:54 [Trace] ASPA0011_1.Controllers.ChannelsController: Вызван метод GetAll()
+2025-11-27 08:29:54 [Trace] ASPA0011_1.Controllers.ChannelsController: GetAll() возвращает 0 каналов
+2025-11-27 08:29:54 [Trace] ASPA0011_1.Controllers.ChannelsController: Вызван метод GetAll()
+2025-11-27 08:29:54 [Trace] ASPA0011_1.Controllers.ChannelsController: GetAll() возвращает 0 каналов
+2025-11-27 08:29:54 [Trace] ASPA0011_1.Controllers.ChannelsController: Вызван метод GetAll()
+2025-11-27 08:29:54 [Trace] ASPA0011_1.Controllers.ChannelsController: GetAll() возвращает 0 каналов
+2025-11-27 08:29:55 [Trace] ASPA0011_1.Controllers.ChannelsController: Вызван метод GetAll()
+2025-11-27 08:29:55 [Trace] ASPA0011_1.Controllers.ChannelsController: GetAll() возвращает 0 каналов
+2025-11-27 08:31:57 [Information] Microsoft.Hosting.Lifetime: Application is shutting down...
+2025-11-27 08:32:04 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-27 08:32:04 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-27 08:32:04 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-27 08:32:04 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-27 08:32:23 [Warning] Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware: Failed to determine the https port for redirect.
+2025-11-27 08:32:23 [Information] ASPA0011_1.Services.ChannelService: ChannelService создан
+2025-11-27 08:32:23 [Error] Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware: An unhandled exception has occurred while executing the request.
+Exception: System.InvalidOperationException: Сервис упал!
+   at ASPA0011_1.Controllers.ChannelsController.ProcessQueue(JsonElement body) in D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1\Controllers\ChannelsController.cs:line 175
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-27 08:35:14 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-27 08:35:14 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-27 08:35:14 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-27 08:35:14 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-27 08:38:09 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-27 08:38:09 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-27 08:38:09 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-27 08:38:09 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-27 08:39:47 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5096
+2025-11-27 08:39:47 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2025-11-27 08:39:47 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2025-11-27 08:39:47 [Information] Microsoft.Hosting.Lifetime: Content root path: D:\Labs5\TPvI\ASPA0011_1\ASPA0011_1
+2025-11-27 08:39:59 [Critical] Startup: Файл appsettings.json отсутствует! Приложение не может быть запущено.
+2025-11-27 08:40:09 [Critical] Startup: Файл appsettings.json отсутствует! Приложение не может быть запущено.
+2025-11-27 08:47:04 [Critical] Startup: Файл appsettings.json отсутствует! Приложение не может быть запущено.

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Отправка письма (Nodemailer + Ethereal)</title>
+</head>
+<body>
+  <h2>Отправка письма через Nodemailer (Ethereal)</h2>
+  <form method="POST" action="/">
+    <label>От кого (email):</label><br>
+    <input type="email" name="sender" required><br><br>
+
+    <label>Кому (email):</label><br>
+    <input type="email" name="receiver" required><br><br>
+
+    <label>Сообщение:</label><br>
+    <textarea name="message" rows="5" cols="40" required></textarea><br><br>
+
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>04-04/05</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+<body>
+    <h1>Lec 04</h1>
+    <div id="get_result"></div>
+    <button onclick="Get()">GET</button>
+    <script>
+    const API_URL = "http://localhost:5000/api/db";
+
+    function isValidDate(bday) {
+        const today = new Date();
+        const birthDate = new Date(bday);
+        return birthDate <= today;
+    }
+
+    async function idExists(id) {
+        if (!id) return false;
+        const response = await fetch(API_URL, { method: "GET", headers: { "Accept": "application/json" } });
+        if (response.ok) {
+            const clients = await response.json();
+            return clients.some(c => c.id === id);
+        }
+        return false;
+    }
+
+    async function Get() {
+        const response = await fetch(API_URL, {
+            method: "GET",
+            headers: { "Accept": "application/json" }
+        });
+
+        if (response.ok) {
+            const clients = await response.json();
+            const tbody = document.querySelector("#get_result");
+            tbody.innerHTML = "";
+            clients.forEach(client => tbody.append(row(client)));
+        } else {
+            console.error("Ошибка GET:", response.status);
+        }
+    }
+
+    function row(client) {
+        const tr = document.createElement("tr");
+        tr.setAttribute("data-id", client.id);
+
+        const idTd = document.createElement("td");
+        idTd.append(client.id);
+        tr.append(idTd);
+
+        const nameTd = document.createElement("td");
+        nameTd.append(client.name);
+        tr.append(nameTd);
+
+        const bdayTd = document.createElement("td");
+        bdayTd.append(client.bdata);
+        tr.append(bdayTd);
+
+        return tr;
+    }
+
+    async function Post() {
+        const id = parseInt(document.getElementById("ID").value);
+        const name = document.getElementById("Name").value.trim();
+        const bday = document.getElementById("BDay").value;
+
+        if (!id || !name || !bday) {
+            alert("Все поля должны быть заполнены!");
+            return;
+        }
+
+        if (!isValidDate(bday)) {
+            alert("Дата рождения не может быть в будущем!");
+            return;
+        }
+
+        if (await idExists(id)) {
+            alert("Запись с таким ID уже существует!");
+            return;
+        }
+
+        const response = await fetch(API_URL, {
+            method: "POST",
+            headers: { "Accept": "application/json", "Content-Type": "application/json" },
+            body: JSON.stringify({ id: id, name: name, bdata: bday })
+        });
+
+        if (response.ok) {
+            const client = await response.json();
+            console.log("POST:", client);
+            Get();
+        } else {
+            const error = await response.json();
+            console.error(error.message);
+        }
+    }
+
+    async function Put() {
+        const id = parseInt(document.getElementById("ID").value);
+        const name = document.getElementById("Name").value.trim();
+        const bday = document.getElementById("BDay").value;
+
+        if (!id || !name || !bday) {
+            alert("Все поля должны быть заполнены!");
+            return;
+        }
+
+        if (!isValidDate(bday)) {
+            alert("Дата рождения не может быть в будущем!");
+            return;
+        }
+
+        if (!(await idExists(id))) {
+            alert("Запись с таким ID не существует!");
+            return;
+        }
+
+        const response = await fetch(API_URL, {
+            method: "PUT",
+            headers: { "Accept": "application/json", "Content-Type": "application/json" },
+            body: JSON.stringify({ id: id, name: name, bdata: bday })
+        });
+
+        if (response.ok) {
+            const client = await response.json();
+            console.log("PUT:", client);
+            Get();
+        } else {
+            const error = await response.json();
+            console.error(error.message);
+        }
+    }
+
+    async function Delete() {
+        const id = parseInt(document.getElementById("ID").value);
+
+        if (!id) {
+            alert("Введите ID для удаления!");
+            return;
+        }
+
+        if (!(await idExists(id))) {
+            alert("Запись с таким ID не существует!");
+            return;
+        }
+
+        const response = await fetch(API_URL, {
+            method: "DELETE",
+            headers: { "Accept": "application/json", "Content-Type": "application/json" },
+            body: JSON.stringify({ id: id })
+        });
+
+        if (response.ok) {
+            const client = await response.json();
+            console.log("DELETE:", client);
+            Get();
+        } else {
+            const error = await response.json();
+            console.error(error.message);
+        }
+    }
+</script>
+
+    <br />
+    <div style="padding: 20px">
+        <div class="row">
+            <label class="col-2">Идентификатор</label>
+            <input type="number" class="col-3" id="ID" min="0" />
+        </div>
+        <div class="row">
+            <label class="col-2">ФИО</label>
+            <input type="text" class="col-3" id="Name" />
+        </div>
+        <div class="row">
+            <label class="col-2">Дата рождения</label>
+            <input type="date" class="col-3" id="BDay" />
+        </div>
+        <div class="row">
+            <button class="col-2" onclick="Post()">POST</button>
+        </div>
+    </div>
+    
+    <div class="row">
+        <button class="col-2" onclick="Put()">PUT</button>
+        <button class="col-2" onclick="Delete()">DELETE</button>
+    </div>
+</body>
+</html>

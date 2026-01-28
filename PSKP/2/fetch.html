@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<body>
+  <h1>Данные с сервера (fetch):</h1>
+  <div id="result"></div>
+
+  <script>
+    fetch('/api/name')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Ошибка HTTP: ' + response.status);
+        }
+        return response.text();
+      })
+      .then(data => {
+        document.getElementById('result').textContent = data;
+      })
+      .catch(error => {
+        document.getElementById('result').textContent = error.message;
+      });
+  </script>
+</body>
+</html>

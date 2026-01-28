@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>  
+    <form method="POST" action="http://localhost:3000/formparameter">
+        <div>
+            <label>Text:</label>
+            <input type="text" name="text" value="MAI"/>
+        </div>
+        <div>
+            <label>Number:</label>
+            <input type="number" name="number" value="1234"/>
+        </div>
+        <div>
+            <label>Date:</label>
+            <input type="date" name="date" value="2025-11-02"/>
+        </div>
+        <div>
+            <label>Checkbox:</label>
+            <input type="checkbox" name="checkbox" unchecked/>
+        </div>
+        <div>
+            <label>Radio:</label>
+            <input type="radio" name="radio" value="option1" checked/> Option 1
+            <input type="radio" name="radio" value="option2"/> Option 2
+        </div>
+        <div>
+            <label>Textarea:</label>
+            <textarea name="textarea">test lab</textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Completed0"/>
+            <input type="submit" name="submit" value="Completed1"/>
+        </div>
+    </form>
+</body>
+</html>
